@@ -1,0 +1,14 @@
+package hbl.jag.tri.sam;
+
+import hbl.jag.tri.lib.DagData;
+
+class testApp {
+
+	public static void main(String[] args){
+		long[] x = new long[100];
+		long[] y = new long[100];
+		DagData dd = new DagData(x,y,2);
+		System.out.println("Hello Tess");
+	}
+
+}

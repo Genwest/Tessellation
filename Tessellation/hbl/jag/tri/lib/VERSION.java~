@@ -1,0 +1,15 @@
+package hbl.jag.tri.lib;
+
+public class VERSION {
+
+	public static String version = "hbl.jag.lib.3.1.1";
+	public static String date = "20150112";
+	
+	public static String num(){return version;}
+	public static String date(){return date;}
+	
+	public static void main(String[] args) {
+		System.out.println("(version "+VERSION.num()+")  (date "+VERSION.date()+")");
+	}
+
+}
